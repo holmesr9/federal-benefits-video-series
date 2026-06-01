@@ -1,3 +1,5 @@
 node_modules/
 out/
 dist/
+public/voiceover/**/*.mp3
+.series-tmp.mjs

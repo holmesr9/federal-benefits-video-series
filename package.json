@@ -7,6 +7,7 @@
     "studio": "remotion studio src/index.ts",
     "render": "remotion render src/index.ts",
     "render:all": "node scripts/render-all.mjs",
+    "voiceover": "node scripts/generate-voiceovers.mjs",
     "typecheck": "tsc --noEmit"
   },
   "repository": {
@@ -19,6 +20,7 @@
   "dependencies": {
     "@remotion/cli": "4.0.470",
     "@remotion/media-utils": "4.0.470",
+    "elevenlabs": "^1.59.0",
     "react": "19.2.7",
     "react-dom": "19.2.7",
     "remotion": "4.0.470"
